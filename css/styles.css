@@ -17,8 +17,7 @@ main {
 
 .header {
   height: 600px;
-  background: url(https://archive.fo/UW4oR/c737ac2a39d31e8407c5d08a73daddc5ddcf5d3e.jpg)
-    no-repeat scroll center/ cover;
+  background: url(../img/bg.jpg) no-repeat scroll center/ cover;
   background-position: bottom;
 }
 
@@ -40,6 +39,17 @@ main {
   align-items: center;
 }
 
+.footer1__b ul li {
+  display: inline-block;
+  margin: 0 2px;
+  text-align: center;
+  border-right: 1px solid rgba(134, 132, 132, 0.692);
+}
+
+.footer1__b ul li:last-child {
+  border-right: none;
+}
+
 #navbar ul li {
   border-right: 1px solid #474747;
 }
@@ -47,6 +57,16 @@ main {
 #navbar ul li:last-child {
   border-right: none;
   position: relative;
+}
+
+footer a {
+  color: #0a92b1;
+}
+
+.footer1__b ul li a {
+  display: block;
+  text-decoration: none;
+  padding-right: 6px;
 }
 
 #navbar ul li a {
@@ -93,6 +113,7 @@ main {
 .info .p1 {
   font-size: 20px;
 }
+
 .fa-play {
   color: white;
   background-color: transparent;
@@ -101,6 +122,7 @@ main {
   font-size: 10px;
   border-radius: 50%;
 }
+
 .phones {
   margin-top: 0%;
   max-height: 25%;
@@ -127,32 +149,11 @@ footer {
   font-size: 14px;
 }
 
-footer a {
-  color: #0a92b1;
-}
-
 footer .footer1 {
   display: flex;
   justify-content: space-between;
   align-items: center;
   margin: 20px 40px 0;
-}
-
-.footer1__b ul li {
-  display: inline-block;
-  margin: 0 2px;
-  text-align: center;
-  border-right: 1px solid rgba(134, 132, 132, 0.692);
-}
-
-.footer1__b ul li a {
-  display: block;
-  text-decoration: none;
-  padding-right: 6px;
-}
-
-.footer1__b ul li:last-child {
-  border-right: none;
 }
 
 .footer2 {
