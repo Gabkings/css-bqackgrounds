@@ -113,23 +113,7 @@ main {
   border: 1px solid white;
 }
 
-.phones div img {
-  width: 100%;
-  height: 100%;
-}
 
-footer {
-  max-height: 10%;
-  background: white;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  font-size: 13px;
-}
-
-footer a {
-  color: #0a92b1;
-}
 
 footer .footer1 {
   display: flex;
