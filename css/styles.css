@@ -136,7 +136,7 @@ footer a {
   max-height: 25%;
   max-width: 100%;
   display: grid;
-  grid-template-columns: repeat(4 , 1fr);
+  grid-template-columns: repeat(4, 1fr);
   background-color: saddlebrown;
 }
 
@@ -147,6 +147,7 @@ footer a {
   padding: 5% 20%;
   margin-bottom: 40%;
   border: 1px solid white;
+  cursor: pointer;
 }
 
 .div4 {
@@ -162,14 +163,13 @@ footer a {
 }
 
 .div2 {
-  background: url(../img/image2.jpg) center/cover  no-repeat;
+  background: url(../img/image2.jpg) center/cover no-repeat;
   flex: 1 1 25;
   height: 100%;
 }
 
 .div1 {
   background: url(../img/image1.jpg) center/cover no-repeat;
- 
 }
 
 footer {
