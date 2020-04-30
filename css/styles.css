@@ -103,12 +103,12 @@ footer a {
 .info {
   margin-top: 5%;
   text-align: center;
-  color: wheat;
+  color: white;
+  font-weight: 100;
 }
 
 .info .big-text {
   font-size: 50px;
-  font-weight: normal;
 }
 
 .info .p1 {
