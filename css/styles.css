@@ -19,8 +19,7 @@ main {
   height: 600px;
   background: url(../img/bg.jpg) no-repeat scroll center/ cover;
   background-position: bottom;
-  font: 12px/18px "Lucida Grande", "Lucida Sans Unicode", Helvetica, Arial,
-    Verdana, sans-serif;
+  font-family: "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
 }
 
 #navbar {
@@ -31,15 +30,7 @@ main {
 }
 
 #navbar ul {
-  background: linear-gradient(
-    180deg,
-    rgba(136, 136, 136, 1) 0%,
-    rgba(58, 56, 62, 1) 53%,
-    rgba(69, 67, 67, 1) 98%,
-    rgba(192, 60, 207, 0) 100%,
-    rgba(64, 63, 67, 1) 100%,
-    rgba(0, 212, 255, 1) 100%
-  );
+  background: linear-gradient(#757675 50%, #676967 50%);
   border: 1px solid black;
   border-radius: 2px;
   width: 90%;
