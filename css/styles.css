@@ -6,7 +6,7 @@ body {
 
 main {
   margin: 0 auto;
-  width: 1310px;
+  width: 100%;
   background-position: center;
   background-size: cover;
   font-size: 16px;
@@ -29,7 +29,15 @@ main {
 }
 
 #navbar ul {
-  background-color: #7d7d7d;
+  background: linear-gradient(
+    180deg,
+    rgba(136, 136, 136, 1) 0%,
+    rgba(58, 56, 62, 1) 53%,
+    rgba(69, 67, 67, 1) 98%,
+    rgba(192, 60, 207, 0) 100%,
+    rgba(64, 63, 67, 1) 100%,
+    rgba(0, 212, 255, 1) 100%
+  );
   border: 1px solid black;
   border-radius: 2px;
   width: 90%;
@@ -127,21 +135,46 @@ footer a {
   margin-top: 0%;
   max-height: 25%;
   max-width: 100%;
-  display: flex;
+  display: grid;
+  grid-template-columns: repeat(4 , 1fr);
+  background-color: saddlebrown;
 }
 
 .phones div {
-  flex: 0 0 25;
+  display: block;
+  flex: 1 1 25;
+  height: 100%;
+  padding: 5% 20%;
+  margin-bottom: 40%;
   border: 1px solid white;
 }
 
-.phones div img {
-  width: 100%;
+.div4 {
+  background: url(../img/image4.jpg) center/cover no-repeat;
+  flex: 1 1 25;
   height: 100%;
+}
+
+.div3 {
+  background: url(../img/image3.jpg) center/cover no-repeat;
+  flex: 1 1 25;
+  height: 100%;
+}
+
+.div2 {
+  background: url(../img/image2.jpg) center/cover  no-repeat;
+  flex: 1 1 25;
+  height: 100%;
+}
+
+.div1 {
+  background: url(../img/image1.jpg) center/cover no-repeat;
+ 
 }
 
 footer {
   max-height: 10%;
+  margin-top: 2%;
   background: white;
   display: flex;
   flex-direction: column;
