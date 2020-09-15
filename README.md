@@ -1,6 +1,8 @@
 # Apple's Home Page Clone
 
 > This is a frontend project with the main aim of learning CSS background properties by cloning Apple Home Page.
+## Live Demo
+[Demo Link](https://raw.githack.com/Gabkings/css-bqackgrounds/master/index.html)
 ##   Features Added
 ###  Navigation bar
 
